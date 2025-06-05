@@ -1,0 +1,28 @@
+
+{
+  "expo": {
+    "name": "CHIPS Mobile",
+    "slug": "chips-mobile",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./icon.png",
+    "userInterfaceStyle": "dark",
+    "splash": {
+      "image": "./splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#000000"
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "assetBundlePatterns": ["**/*"],
+    "ios": { "supportsTablet": true },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./icon.png",
+        "backgroundColor": "#000000"
+      }
+    },
+    "web": { "favicon": "./icon.png" }
+  }
+}
