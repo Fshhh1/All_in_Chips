@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>CHIPS:// PRISMIRROR</title>
+  <style>
+    body { background: black; color: #00FF00; font-family: monospace; padding: 2rem; }
+    input, button { font-size: 1.2em; padding: 10px; margin: 10px; }
+  </style>
+</head>
+<body>
+  <h1>CHIPS:// PRISMIRROR Terminal</h1>
+  <p>Welcome to the contradiction-driven cognition interface.</p>
+  <input id="domain" placeholder="Enter domain (e.g., core.redmelon)" />
+  <input id="context" placeholder="Enter context (e.g., root.Δ001)" />
+  <button onclick="resolve()">Access</button>
+  <pre id="output">Awaiting input...</pre>
+
+  <script>
+    function resolve() {
+      const domain = document.getElementById('domain').value;
+      const context = document.getElementById('context').value;
+      const output = document.getElementById('output');
+      output.innerText = `Accessing chips://${domain}/${context}...`;
+    }
+  </script>
+</body>
+</html>

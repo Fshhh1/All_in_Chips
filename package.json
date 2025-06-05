@@ -1,0 +1,13 @@
+{
+  "name": "chips-electron-app",
+  "version": "1.0.0",
+  "description": "Electron-based CHIPS:// Protocol Client",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron ."
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "electron": "^25.0.0"
+  }
+}
